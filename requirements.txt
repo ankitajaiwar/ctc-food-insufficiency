@@ -5,3 +5,5 @@ requests>=2.31
 pyfixest>=0.70
 statsmodels>=0.14
 matplotlib>=3.8
+econml>=0.15
+scikit-learn>=1.3
