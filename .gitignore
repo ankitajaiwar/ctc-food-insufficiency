@@ -1,0 +1,9 @@
+data/raw/
+data/clean/
+data/synthetic/
+data/synthetic_clean/
+output_synthetic/
+__pycache__/
+*.parquet
+*.zip
+output_repwgt.log
