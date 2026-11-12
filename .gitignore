@@ -7,3 +7,4 @@ __pycache__/
 *.parquet
 *.zip
 output_repwgt.log
+output/
