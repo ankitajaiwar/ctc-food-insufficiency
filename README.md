@@ -4,6 +4,8 @@
 
 The monthly Child Tax Credit (CTC) payments in the second half of 2021 lowered food insufficiency among families with children. The drop was largest for low-income, Hispanic and Black families, and for families with three or more children. The effect faded over the months after the payments stopped.
 
+Policy brief (3 pages, non-technical): [brief/brief.pdf](brief/brief.pdf)
+
 ## Question
 
 The American Rescue Plan Act made the 2021 CTC larger and fully refundable. The IRS paid half of it in advance, in six monthly payments: Jul 15, Aug 13, Sep 15, Oct 15, Nov 15 and Dec 15, 2021. Did those payments reduce food insufficiency, and which families gained most?
@@ -80,6 +82,8 @@ python src/03c_repwgt.py             # replicate-weight SEs
 python src/04_heterogeneity.py       # subgroup DiDs + causal forests (~2 min)
 python src/05_figures.py             # event study chart
 python src/05b_subgroups_fig.py      # subgroup chart
+python src/05b_subgroups_fig.py brief  # shorter version for the brief
+python brief/make_brief.py           # brief/brief.pdf
 ```
 
 Week dates and shared settings are in `src/config.py`. To test without downloading anything, see `tests/make_synthetic.py` (fake data; paths are set with `HPS_RAW` / `HPS_CLEAN` / `HPS_OUT`).
